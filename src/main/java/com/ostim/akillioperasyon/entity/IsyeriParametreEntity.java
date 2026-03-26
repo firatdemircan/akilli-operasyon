@@ -17,10 +17,10 @@ public class IsyeriParametreEntity {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
-
+    
     @ManyToOne
-    @JoinColumn(name = "isyeri_entity_id")
-    private IsyeriEntity isyeriEntity;
+    @JoinColumn(name = "depo_entity_id")
+    private DepoEntity depoEntity;
 
     @ManyToOne
     @JoinColumn(name = "parametre_entity_id")
