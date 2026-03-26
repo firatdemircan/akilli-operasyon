@@ -11,6 +11,6 @@ spring:
       max-request-size: 10MB
   # Database Configuration
   datasource:
-    url: jdbc:postgresql://10.0.0.233:5432/akillioperasyon
-    username: postgres
-    password: Tmohelp01*
+    url: jdbc:postgresql://10.0.0.233:5432/****
+    username: ******
+    password: ******
