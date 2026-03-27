@@ -32,7 +32,4 @@ public class IsyeriParametreEntity {
     @Column(name = "max_referans")
     private Integer maxReferans;
 
-    @Column(name = "olcum_deger")
-    private Integer olcumDegeri;
-
 }
